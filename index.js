@@ -18,22 +18,26 @@ function toppings_choice() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(console.log('which topping would you love?'));
-    }, 5000);
+    }, 1);
   });
 }
 
 async function kitchen() {
-  console.log('A');
-  console.log('B');
-  console.log('C');
+  console.log('Dentro A');
+  console.log('Dentro B');
+  console.log('Dentro C');
 
   await toppings_choice();
 
-  console.log('D');
-  console.log('E');
+  console.log('Dentro D');
+  console.log('Dentro E');
 }
 
 kitchen();
 console.log('doing the dishes');
 console.log('cleaning the tables');
 console.log('taking orders');
+console.log("fdfdfdfd")
+console.log("fdfdfdfdfdfdfdfd")
+console.log("ffd fdfdfd fdfdfdfdf")
+
